@@ -11,20 +11,59 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-100 via-cyan-100 to-teal-200 p-6 relative">
-      {/* Animated ocean background elements */}
+      {/* Enhanced ocean background with particles and waves */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-blue-300/20 to-transparent animate-pulse"></div>
-        <div className="absolute top-1/4 left-0 w-full h-12 bg-gradient-to-r from-transparent via-cyan-300/30 to-transparent opacity-60 animate-ping" style={{animationDuration: '4s'}}></div>
+        {/* Multi-layered wave animations */}
+        <div className="absolute bottom-0 left-0 w-full h-40 bg-gradient-to-t from-blue-300/30 to-transparent animate-pulse"></div>
+        <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-cyan-400/20 to-transparent animate-pulse" style={{animationDuration: '3s'}}></div>
+        <div className="absolute top-1/4 left-0 w-full h-16 bg-gradient-to-r from-transparent via-cyan-300/40 to-transparent opacity-60 animate-ping" style={{animationDuration: '5s'}}></div>
+        <div className="absolute top-1/3 left-0 w-full h-8 bg-gradient-to-r from-transparent via-teal-300/30 to-transparent opacity-80 animate-ping" style={{animationDuration: '6s', animationDelay: '2s'}}></div>
         
-        {/* Floating bubbles */}
-        <div className="absolute top-1/4 left-1/4 w-4 h-4 bg-cyan-300/40 rounded-full animate-bounce" style={{animationDuration: '3s'}}></div>
-        <div className="absolute top-1/2 right-1/4 w-3 h-3 bg-blue-300/40 rounded-full animate-bounce" style={{animationDuration: '4s', animationDelay: '1s'}}></div>
-        <div className="absolute bottom-1/3 left-1/3 w-2 h-2 bg-teal-300/40 rounded-full animate-bounce" style={{animationDuration: '5s', animationDelay: '2s'}}></div>
-        <div className="absolute top-2/3 right-1/3 w-5 h-5 bg-cyan-200/30 rounded-full animate-bounce" style={{animationDuration: '6s', animationDelay: '0.5s'}}></div>
+        {/* Enhanced Ocean particles - small floating elements */}
+        <div className="absolute top-1/6 left-1/5 w-1 h-1 bg-cyan-400/50 rounded-full animate-ping" style={{animationDuration: '2s'}}></div>
+        <div className="absolute top-1/3 left-3/4 w-1 h-1 bg-blue-400/40 rounded-full animate-ping" style={{animationDuration: '3s', animationDelay: '1s'}}></div>
+        <div className="absolute top-2/3 left-1/6 w-1 h-1 bg-teal-400/60 rounded-full animate-ping" style={{animationDuration: '4s', animationDelay: '0.5s'}}></div>
+        <div className="absolute top-1/2 left-4/5 w-1 h-1 bg-cyan-300/50 rounded-full animate-ping" style={{animationDuration: '3.5s', animationDelay: '2s'}}></div>
+        <div className="absolute top-3/4 left-2/3 w-1 h-1 bg-blue-300/40 rounded-full animate-ping" style={{animationDuration: '2.5s', animationDelay: '1.5s'}}></div>
         
-        {/* Floating seaweed-like elements */}
-        <div className="absolute bottom-10 left-10 w-1 h-16 bg-gradient-to-t from-green-400/30 to-transparent animate-pulse" style={{animationDuration: '3s'}}></div>
-        <div className="absolute bottom-8 right-20 w-1 h-20 bg-gradient-to-t from-teal-400/30 to-transparent animate-pulse" style={{animationDuration: '4s', animationDelay: '1s'}}></div>
+        {/* Additional micro particles */}
+        <div className="absolute top-1/8 left-1/8 w-0.5 h-0.5 bg-cyan-500/40 rounded-full animate-pulse" style={{animationDuration: '1.5s'}}></div>
+        <div className="absolute top-5/6 left-1/2 w-0.5 h-0.5 bg-blue-500/35 rounded-full animate-pulse" style={{animationDuration: '2.2s', animationDelay: '0.8s'}}></div>
+        <div className="absolute top-1/4 left-3/5 w-0.5 h-0.5 bg-teal-500/45 rounded-full animate-pulse" style={{animationDuration: '1.8s', animationDelay: '1.2s'}}></div>
+        <div className="absolute top-3/5 left-1/8 w-0.5 h-0.5 bg-cyan-400/50 rounded-full animate-pulse" style={{animationDuration: '2.8s', animationDelay: '0.3s'}}></div>
+        <div className="absolute top-1/7 left-4/5 w-0.5 h-0.5 bg-blue-400/35 rounded-full animate-pulse" style={{animationDuration: '2.1s', animationDelay: '1.8s'}}></div>
+        <div className="absolute top-4/5 left-3/4 w-0.5 h-0.5 bg-teal-400/40 rounded-full animate-pulse" style={{animationDuration: '1.9s', animationDelay: '0.6s'}}></div>
+        
+        {/* Medium floating particles */}
+        <div className="absolute top-1/7 left-2/5 w-1.5 h-1.5 bg-cyan-300/35 rounded-full animate-bounce" style={{animationDuration: '4.5s', animationDelay: '0.2s'}}></div>
+        <div className="absolute top-3/7 left-1/7 w-1.5 h-1.5 bg-blue-300/40 rounded-full animate-bounce" style={{animationDuration: '5.2s', animationDelay: '1.3s'}}></div>
+        <div className="absolute top-5/7 left-4/6 w-1.5 h-1.5 bg-teal-300/30 rounded-full animate-bounce" style={{animationDuration: '3.8s', animationDelay: '2.1s'}}></div>
+        <div className="absolute top-6/7 left-1/3 w-1.5 h-1.5 bg-cyan-400/35 rounded-full animate-bounce" style={{animationDuration: '4.8s', animationDelay: '0.9s'}}></div>
+        
+        {/* Larger floating bubbles with varied sizes */}
+        <div className="absolute top-1/5 left-1/4 w-6 h-6 bg-cyan-300/30 rounded-full animate-bounce" style={{animationDuration: '4s'}}></div>
+        <div className="absolute top-1/2 right-1/5 w-4 h-4 bg-blue-300/35 rounded-full animate-bounce" style={{animationDuration: '5s', animationDelay: '1s'}}></div>
+        <div className="absolute bottom-1/4 left-1/3 w-3 h-3 bg-teal-300/40 rounded-full animate-bounce" style={{animationDuration: '6s', animationDelay: '2s'}}></div>
+        <div className="absolute top-2/3 right-1/4 w-8 h-8 bg-cyan-200/25 rounded-full animate-bounce" style={{animationDuration: '7s', animationDelay: '0.5s'}}></div>
+        <div className="absolute top-1/6 right-1/3 w-2 h-2 bg-blue-400/45 rounded-full animate-bounce" style={{animationDuration: '3.5s', animationDelay: '1.5s'}}></div>
+        
+        {/* Floating organic shapes */}
+        <div className="absolute top-1/3 left-1/12 w-2 h-3 bg-green-400/25 rounded-full animate-pulse" style={{animationDuration: '5s', animationDelay: '1s'}}></div>
+        <div className="absolute top-4/5 left-5/6 w-1 h-2 bg-teal-500/30 rounded-full animate-pulse" style={{animationDuration: '4.2s', animationDelay: '2.5s'}}></div>
+        <div className="absolute top-1/8 left-2/3 w-3 h-1 bg-cyan-400/20 rounded-full animate-pulse" style={{animationDuration: '6.5s', animationDelay: '0.7s'}}></div>
+        
+        {/* Ocean current lines */}
+        <div className="absolute top-1/4 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-cyan-300/20 to-transparent animate-pulse" style={{animationDuration: '8s'}}></div>
+        <div className="absolute top-2/3 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-blue-300/15 to-transparent animate-pulse" style={{animationDuration: '10s', animationDelay: '3s'}}></div>
+        
+        {/* Enhanced seaweed-like floating elements */}
+        <div className="absolute bottom-12 left-8 w-0.5 h-20 bg-gradient-to-t from-green-500/40 to-transparent animate-pulse" style={{animationDuration: '4s'}}></div>
+        <div className="absolute bottom-8 left-16 w-0.5 h-16 bg-gradient-to-t from-teal-500/35 to-transparent animate-pulse" style={{animationDuration: '5s', animationDelay: '1s'}}></div>
+        <div className="absolute bottom-10 right-20 w-0.5 h-24 bg-gradient-to-t from-green-400/30 to-transparent animate-pulse" style={{animationDuration: '6s', animationDelay: '2s'}}></div>
+        <div className="absolute bottom-6 right-32 w-0.5 h-18 bg-gradient-to-t from-teal-400/40 to-transparent animate-pulse" style={{animationDuration: '4.5s', animationDelay: '0.5s'}}></div>
+        
+        {/* Distant ocean depth gradients */}
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-radial from-transparent via-blue-200/10 to-cyan-300/20 opacity-30"></div>
       </div>
       
       <div className="max-w-4xl mx-auto relative z-10">
