@@ -37,7 +37,7 @@ function App() {
             Seaweed Based Bio Plastic Making
           </h2>
           <h3 className="text-lg text-blue-600 font-medium">
-            Laboratory Experiments
+            Experiments
           </h3>
           <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-teal-500 rounded-full mx-auto mt-3"></div>
         </div>
