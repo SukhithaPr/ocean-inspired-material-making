@@ -1,1 +1,37 @@
 @import "tailwindcss";
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+ul,
+ol {
+    list-style-type: disc;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+@media (max-width: 640px) {
+    .flex.items-center {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mr-2 {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+}
