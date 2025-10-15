@@ -3,9 +3,18 @@ import './App.css';
 
 function App() {
     const [activeTab, setActiveTab] = React.useState('1st Attempt');
+    const [modalImage, setModalImage] = React.useState(null);
 
     const handleTabClick = (tabName) => {
         setActiveTab(tabName);
+    };
+
+    const openModal = (imageSrc) => {
+        setModalImage(imageSrc);
+    };
+
+    const closeModal = () => {
+        setModalImage(null);
     };
 
     return (
@@ -96,28 +105,48 @@ function App() {
                                         First Added the water and put all the ingredients in necessary measurements and cooked till it thickened till a gel and then poured it to a tray by laying an oil paper kept it for 3 days in room temperature.
                                     </p>
                                     <br />
-                                    <ol className="ml-6 space-y-2 text-gray-600 list-decimal">
-                                        <li className="flex items-center">
-                                            <span className="mr-2">After pouring the mixure into the tray.</span>
-                                            <img src="/src/assets/1st-attempt/1.jpg" alt="Step 1" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                    <ol className="ml-6 space-y-4 text-gray-600 list-decimal">
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/1st-attempt/1.jpg"
+                                                alt="Step 1"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/1st-attempt/1.jpg')}
+                                            />
+                                            <span>After pouring the mixture into the tray.</span>
                                         </li>
-                                        <li className="flex items-center">
-                                            <span className="mr-2">Covering the mixure with another oil paper on top.</span>
-                                            <img src="/src/assets/1st-attempt/2.jpg" alt="Step 2" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/1st-attempt/2.jpg"
+                                                alt="Step 2"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/1st-attempt/2.jpg')}
+                                            />
+                                            <span>Covering the mixture with another oil paper on top.</span>
                                         </li>
-                                        <li className="flex items-center">
-                                            <span className="mr-2">After the mixer is halfly set.</span>
-                                            <img src="/src/assets/1st-attempt/3.jpg" alt="Step 3" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/1st-attempt/3.jpg"
+                                                alt="Step 3"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/1st-attempt/3.jpg')}
+                                            />
+                                            <span>After the mixture is halfly set.</span>
                                         </li>
-                                        <li className="flex items-center">
-                                            <span className="mr-2">Keeping the mixure in the sun to see wether it melts or not. It melted fastly.</span>
-                                            <img src="/src/assets/1st-attempt/4.jpg" alt="Step 4" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/1st-attempt/4.jpg"
+                                                alt="Step 4"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/1st-attempt/4.jpg')}
+                                            />
+                                            <span>Keeping the mixture in the sun to see whether it melts or not. It melted fastly.</span>
                                         </li>
                                     </ol>
                                 </div>
                                 <div>
                                     <h5 className="font-medium text-gray-700">Results</h5>
-                                    <p className="text-gray-600">The mixer was thicken and successful but it wasn’t either water resistant nor  heat resistant.After letting it into the sun it melted fast Therefore, went to the next attempt to implement a good product.So this was a hafly successful attempt.</p>
+                                    <p className="text-gray-600">The mixture was thickened and successful but it wasn’t either water resistant nor heat resistant. After letting it into the sun it melted fast. Therefore, went to the next attempt to implement a good product. So this was a halfly successful attempt.</p>
                                 </div>
                             </div>
                         </div>
@@ -136,22 +165,32 @@ function App() {
                                 </div>
                                 <div>
                                     <h5 className="font-medium text-gray-700">Process</h5>
-                                    <p className="text-gray-600">First added these ingredients according to the measurements and then started to cook like the previous attempt and then took the mixer after the mixer after it started to thicken but this mixer wasn’t too thick.This had a glass like texture.This was a new attempt with new measurements and ingredients.Then after poured it into the papered tray.Kept it for 3 days in room temperature.</p>
+                                    <p className="text-gray-600">First added these ingredients according to the measurements and then started to cook like the previous attempt and then took the mixture after it started to thicken but this mixture wasn’t too thick. This had a glass-like texture. This was a new attempt with new measurements and ingredients. Then after poured it into the papered tray. Kept it for 3 days in room temperature.</p>
                                     <br />
-                                    <ol className="ml-6 space-y-2 text-gray-600 list-decimal">
-                                        <li className="flex items-center">
-                                            <span className="mr-2">The mixer after pouring it to the tray.</span>
-                                            <img src="/src/assets/2nd-attempt/1.jpg" alt="Step 1" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                    <ol className="ml-6 space-y-4 text-gray-600 list-decimal">
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/2nd-attempt/1.jpg"
+                                                alt="Step 1"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/2nd-attempt/1.jpg')}
+                                            />
+                                            <span>The mixture after pouring it to the tray.</span>
                                         </li>
-                                        <li className="flex items-center">
-                                            <span className="mr-2">The mixer after 3 days.</span>
-                                            <img src="/src/assets/2nd-attempt/2.jpg" alt="Step 2" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/2nd-attempt/2.jpg"
+                                                alt="Step 2"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/2nd-attempt/2.jpg')}
+                                            />
+                                            <span>The mixture after 3 days.</span>
                                         </li>
                                     </ol>
                                 </div>
                                 <div>
                                     <h5 className="font-medium text-gray-700">Results</h5>
-                                    <p className="text-gray-600">This 2nd attempt was a different one from the 1st attempt.This experiments results came out was  not okay.The texture was watery and it didn’t thickened in room temperature.This started to smell so badly also. Therefore, restarted the next attempt with new changed ingredients and measurements.</p>
+                                    <p className="text-gray-600">This 2nd attempt was a different one from the 1st attempt. This experiment's results came out not okay. The texture was watery and it didn’t thicken in room temperature. This started to smell so badly also. Therefore, restarted the next attempt with new changed ingredients and measurements.</p>
                                 </div>
                             </div>
                         </div>
@@ -171,38 +210,68 @@ function App() {
                                 </div>
                                 <div>
                                     <h5 className="font-medium text-gray-700">Process</h5>
-                                    <p className="text-gray-600">First made the seaweed  mixer.by mixing the 1L of water and then let it sit for 15-30 minutes.After heating it gently and stirring until dissolve.Then adding cornstarch and glycerin  to the mixer.Then incorporating latex removing it from the direct heat and letting it cool slightly and slowly stirring in 60 ml of liquid latex.Mixing it thoughrouly until smooth.Then pouring it into the tray and keeping it in room temperature.</p>
+                                    <p className="text-gray-600">First made the seaweed mixture by mixing 1L of water and then let it sit for 15-30 minutes. After heating it gently and stirring until dissolved. Then adding cornstarch and glycerin to the mixture. Then incorporating latex, removing it from the direct heat and letting it cool slightly and slowly stirring in 60 ml of liquid latex. Mixing it thoroughly until smooth. Then pouring it into the tray and keeping it in room temperature.</p>
                                     <br />
-                                    <ol className="ml-6 space-y-2 text-gray-600 list-decimal">
-                                        <li className="flex items-center">
-                                            <span className="mr-2">The Rubber milk</span>
-                                            <img src="/src/assets/3rd-attempt/1.jpg" alt="Step 2" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                    <ol className="ml-6 space-y-4 text-gray-600 list-decimal">
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/3rd-attempt/1.jpg"
+                                                alt="Step 1"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/3rd-attempt/1.jpg')}
+                                            />
+                                            <span>The Rubber milk.</span>
                                         </li>
-                                        <li className="flex items-center">
-                                            <span className="mr-2">While the mixer is cooking</span>
-                                            <img src="/src/assets/3rd-attempt/2.jpg" alt="Step 2" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/3rd-attempt/2.jpg"
+                                                alt="Step 2"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/3rd-attempt/2.jpg')}
+                                            />
+                                            <span>While the mixture is cooking.</span>
                                         </li>
-                                        <li className="flex items-center">
-                                            <span className="mr-2">After adding the Rubber milk.</span>
-                                            <img src="/src/assets/3rd-attempt/3.jpg" alt="Step 3" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/3rd-attempt/3.jpg"
+                                                alt="Step 3"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/3rd-attempt/3.jpg')}
+                                            />
+                                            <span>After adding the Rubber milk.</span>
                                         </li>
-                                        <li className="flex items-center">
-                                            <span className="mr-2">Let it set at room temperature.</span>
-                                            <img src="/src/assets/3rd-attempt/4.jpg" alt="Step 4" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/3rd-attempt/4.jpg"
+                                                alt="Step 4"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/3rd-attempt/4.jpg')}
+                                            />
+                                            <span>Let it set at room temperature.</span>
                                         </li>
-                                        <li className="flex items-center">
-                                            <span className="mr-2">the final result.</span>
-                                            <img src="/src/assets/3rd-attempt/5.jpg" alt="Step 5" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/3rd-attempt/5.jpg"
+                                                alt="Step 5"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/3rd-attempt/5.jpg')}
+                                            />
+                                            <span>The final result.</span>
                                         </li>
-                                        <li className="flex items-center">
-                                            {/*<span className="mr-2">Check an additional view of the result.</span>*/}
-                                            <img src="/src/assets/3rd-attempt/6.jpg" alt="Step 6" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/3rd-attempt/6.jpg"
+                                                alt="Step 6"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/3rd-attempt/6.jpg')}
+                                            />
+                                            <span>Check an additional view of the result.</span>
                                         </li>
                                     </ol>
                                 </div>
                                 <div>
                                     <h5 className="font-medium text-gray-700">Results</h5>
-                                    <p className="text-gray-600">This attempt was Almost Successful but it didn't set properly only the edges were fixed and felt like rubber textureTherefore had to go for a new attempt again.</p>
+                                    <p className="text-gray-600">This attempt was almost successful but it didn't set properly, only the edges were fixed and felt like rubber texture. Therefore had to go for a new attempt again.</p>
                                 </div>
                             </div>
                         </div>
@@ -223,18 +292,23 @@ function App() {
                                 </div>
                                 <div>
                                     <h5 className="font-medium text-gray-700">Process</h5>
-                                    <p className="text-gray-600">For this process first added the other ingredients instead of natural latex and then mixed them together.With adding peanut husks ash as calcium chloride(for the water absorbance)For this attempt the special thing was adding the seaweeds dried and crushed with the grinder.Then as the other attempt added the rubber milk after the mixer was cooked and cooled down a little and then poured it into a papered tray and let it dry in room temperature for 3 days.</p>
+                                    <p className="text-gray-600">For this process first added the other ingredients instead of natural latex and then mixed them together. With adding peanut husks ash as calcium chloride (for the water absorbance). For this attempt the special thing was adding the seaweeds dried and crushed with the grinder. Then as the other attempt added the rubber milk after the mixture was cooked and cooled down a little and then poured it into a papered tray and let it dry in room temperature for 3 days.</p>
                                     <br />
-                                    <ol className="ml-6 space-y-2 text-gray-600 list-decimal">
-                                        <li className="flex items-center">
-                                            <span className="mr-2">The mixer after pouring it to the tray (This didnt set this was same after 3 days also ).</span>
-                                            <img src="/src/assets/4th-attempt/1.jpg" alt="Step 1" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                    <ol className="ml-6 space-y-4 text-gray-600 list-decimal">
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/4th-attempt/1.jpg"
+                                                alt="Step 1"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/4th-attempt/1.jpg')}
+                                            />
+                                            <span>The mixture after pouring it to the tray (This didn’t set, this was same after 3 days also).</span>
                                         </li>
                                     </ol>
                                 </div>
                                 <div>
                                     <h5 className="font-medium text-gray-700">Results</h5>
-                                    <p className="text-gray-600">This mixer had different results than the other ones this didn’t fixed at all it was watery even after 3 days.Therefore, went ahead to another new attempt.</p>
+                                    <p className="text-gray-600">This mixture had different results than the other ones, this didn’t fix at all, it was watery even after 3 days. Therefore, went ahead to another new attempt.</p>
                                 </div>
                             </div>
                         </div>
@@ -255,30 +329,50 @@ function App() {
                                 </div>
                                 <div>
                                     <h5 className="font-medium text-gray-700">Process</h5>
-                                    <p className="text-gray-600">prepared the base using the 5g of Agar powder,3g of  beeswax ,100ml water,3ml glycerin and adding 2g cornstarch for strengthening .Putting these all together and cooking it while stirring constantly Making sure that beeswax is fully melted and the agar is fully dissolved carrying out this process for 15 minutes and Then adding the peanut husks ash instead of calcium chloride then continue stirring the Mixture.Taking it out after it’s smooth, thick and when it became gel like texture.Then  keeping it for 2 days for setting in the same pan it was cooked.</p>
+                                    <p className="text-gray-600">Prepared the base using 5g of Agar powder, 3g of beeswax, 100ml water, 3ml glycerin and adding 2g cornstarch for strengthening. Putting these all together and cooking it while stirring constantly, making sure that beeswax is fully melted and the agar is fully dissolved, carrying out this process for 15 minutes. Then adding the peanut husks ash instead of calcium chloride then continue stirring the mixture. Taking it out after it’s smooth, thick and when it became gel-like texture. Then keeping it for 2 days for setting in the same pan it was cooked.</p>
                                     <br />
-                                    <ol className="ml-6 space-y-2 text-gray-600 list-decimal">
-                                        <li className="flex items-center">
-                                            <span className="mr-2">The mixture after cooked</span>
-                                            <img src="/src/assets/5th-attempt/1.jpg" alt="Step 1" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                    <ol className="ml-6 space-y-4 text-gray-600 list-decimal">
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/5th-attempt/1.jpg"
+                                                alt="Step 1"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/5th-attempt/1.jpg')}
+                                            />
+                                            <span>The mixture after cooked.</span>
                                         </li>
-                                        <li className="flex items-center">
-                                            <span className="mr-2">The beesewax has come on top the underneath mixure was like gelly.</span>
-                                            <img src="/src/assets/5th-attempt/2.jpg" alt="Step 2" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/5th-attempt/2.jpg"
+                                                alt="Step 2"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/5th-attempt/2.jpg')}
+                                            />
+                                            <span>The beeswax has come on top, the underneath mixture was like jelly.</span>
                                         </li>
-                                        <li className="flex items-center">
-                                            <span className="mr-2">The finished product after 2 days</span>
-                                            <img src="/src/assets/5th-attempt/3.jpg" alt="Step 3" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/5th-attempt/3.jpg"
+                                                alt="Step 3"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/5th-attempt/3.jpg')}
+                                            />
+                                            <span>The finished product after 2 days.</span>
                                         </li>
-                                        <li className="flex items-center">
-                                            {/*<span className="mr-2">Check an additional view of the result.</span>*/}
-                                            <img src="/src/assets/5th-attempt/4.jpg" alt="Step 4" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/5th-attempt/4.jpg"
+                                                alt="Step 4"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/5th-attempt/4.jpg')}
+                                            />
+                                            <span>Check an additional view of the result.</span>
                                         </li>
                                     </ol>
                                 </div>
                                 <div>
                                     <h5 className="font-medium text-gray-700">Results</h5>
-                                    <p className="text-gray-600">The issue hear was the beeswax it came on top and hardened separately and other qualities the texture and all was okay.But the underneath layer didn’t hardened that much.Therefore went to another new attempt again.</p>
+                                    <p className="text-gray-600">The issue here was the beeswax, it came on top and hardened separately and other qualities the texture and all was okay. But the underneath layer didn’t harden that much. Therefore went to another new attempt again.</p>
                                 </div>
                             </div>
                         </div>
@@ -298,31 +392,67 @@ function App() {
                                 </div>
                                 <div>
                                     <h5 className="font-medium text-gray-700">Process</h5>
-                                    <p className="text-gray-600">prepared the base using the 5g of Agar powder,100ml water,3ml glycerin and adding 2g cornstarch for strengthening .Putting these all together and cooking it while stirring constantly Making sure the agar is fully dissolved .Carrying out this process for 10 minutes and Then adding the peanut husks ash instead of calcium chloride then continue stirring the Mixture.Taking it out after it’s smooth, thick and when it became gel like texture.Then pouring it into a non papered tray keeping it for 2 days</p>
+                                    <p className="text-gray-600">Prepared the base using 5g of Agar powder, 100ml water, 3ml glycerin and adding 2g cornstarch for strengthening. Putting these all together and cooking it while stirring constantly, making sure the agar is fully dissolved. Carrying out this process for 10 minutes and then adding the peanut husks ash instead of calcium chloride then continue stirring the mixture. Taking it out after it’s smooth, thick and when it became gel-like texture. Then pouring it into a non-papered tray keeping it for 2 days.</p>
                                     <br />
-                                    <ol className="ml-6 space-y-2 text-gray-600 list-decimal">
-                                        <li className="flex items-center">
-                                            <span className="mr-2">After the mixture is poured to the tray</span>
-                                            <img src="/src/assets/6th-attempt/1.jpg" alt="Step 1" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                    <ol className="ml-6 space-y-4 text-gray-600 list-decimal">
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/6th-attempt/1.jpg"
+                                                alt="Step 1"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/6th-attempt/1.jpg')}
+                                            />
+                                            <span>After the mixture is poured to the tray.</span>
                                         </li>
-                                        <li className="flex items-center">
-                                            <span className="mr-2">After 2 days the mixture was fully hardened</span>
-                                            <img src="/src/assets/6th-attempt/2.jpg" alt="Step 2" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/6th-attempt/2.jpg"
+                                                alt="Step 2"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/6th-attempt/2.jpg')}
+                                            />
+                                            <span>After 2 days the mixture was fully hardened.</span>
                                         </li>
-                                        <li className="flex items-center">
-                                            <span className="mr-2">The mixture after taking out of the tray</span>
-                                            <img src="/src/assets/6th-attempt/3.jpg" alt="Step 3" className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm" />
+                                        <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                                            <img
+                                                src="/src/assets/6th-attempt/3.jpg"
+                                                alt="Step 3"
+                                                className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
+                                                onClick={() => openModal('/src/assets/6th-attempt/3.jpg')}
+                                            />
+                                            <span>The mixture after taking out of the tray.</span>
                                         </li>
                                     </ol>
                                 </div>
                                 <div>
                                     <h5 className="font-medium text-gray-700">Results</h5>
-                                    <p className="text-gray-600">As I poured it to a huge tray the mixer became thinner therefore it was too fragile therefore,It broke.But this was the Best attempt from all this was successful this was hardened in to the appropriate texture and it had the qualities I wanted for the feel of the seaweeds through the material was also there slightly.</p>
+                                    <p className="text-gray-600">As I poured it to a huge tray the mixture became thinner, therefore it was too fragile, therefore, it broke. But this was the best attempt from all, this was successful, this was hardened into the appropriate texture and it had the qualities I wanted for the feel of the seaweeds through the material was also there slightly.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                {modalImage && (
+                    <div
+                        className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+                        onClick={closeModal}
+                    >
+                        <div className="relative bg-white p-4 rounded-lg max-w-3xl w-full">
+                            <button
+                                className="absolute top-2 right-2 text-gray-600 hover:text-gray-800 text-xl font-bold"
+                                onClick={closeModal}
+                            >
+                                &times;
+                            </button>
+                            <img
+                                src={modalImage}
+                                alt="Enlarged view"
+                                className="w-full h-auto max-h-[80vh] object-contain"
+                            />
+                        </div>
+                    </div>
+                )}
             </div>
         </div>
     );
