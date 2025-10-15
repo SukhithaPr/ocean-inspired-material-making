@@ -111,7 +111,7 @@ function App() {
                                                 src="/1st-attempt/1.jpg"
                                                 alt="Step 1"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/1st-attempt/1.jpg')}
+                                                onClick={() => openModal('/public/1st-attempt/1.jpg')}
                                             />
                                             <span>After pouring the mixture into the tray.</span>
                                         </li>
@@ -120,7 +120,7 @@ function App() {
                                                 src="/1st-attempt/2.jpg"
                                                 alt="Step 2"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/1st-attempt/2.jpg')}
+                                                onClick={() => openModal('/public/1st-attempt/2.jpg')}
                                             />
                                             <span>Covering the mixture with another oil paper on top.</span>
                                         </li>
@@ -129,7 +129,7 @@ function App() {
                                                 src="/1st-attempt/3.jpg"
                                                 alt="Step 3"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/1st-attempt/3.jpg')}
+                                                onClick={() => openModal('/public/1st-attempt/3.jpg')}
                                             />
                                             <span>After the mixture is halfly set.</span>
                                         </li>
@@ -138,7 +138,7 @@ function App() {
                                                 src="/1st-attempt/4.jpg"
                                                 alt="Step 4"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/1st-attempt/4.jpg')}
+                                                onClick={() => openModal('/public/1st-attempt/4.jpg')}
                                             />
                                             <span>Keeping the mixture in the sun to see whether it melts or not. It melted fastly.</span>
                                         </li>
@@ -173,7 +173,7 @@ function App() {
                                                 src="/2nd-attempt/1.jpg"
                                                 alt="Step 1"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/2nd-attempt/1.jpg')}
+                                                onClick={() => openModal('/public/2nd-attempt/1.jpg')}
                                             />
                                             <span>The mixture after pouring it to the tray.</span>
                                         </li>
@@ -182,7 +182,7 @@ function App() {
                                                 src="/2nd-attempt/2.jpg"
                                                 alt="Step 2"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/2nd-attempt/2.jpg')}
+                                                onClick={() => openModal('/public/2nd-attempt/2.jpg')}
                                             />
                                             <span>The mixture after 3 days.</span>
                                         </li>
@@ -218,7 +218,7 @@ function App() {
                                                 src="/3rd-attempt/1.jpg"
                                                 alt="Step 1"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/3rd-attempt/1.jpg')}
+                                                onClick={() => openModal('/public/3rd-attempt/1.jpg')}
                                             />
                                             <span>The Rubber milk.</span>
                                         </li>
@@ -227,7 +227,7 @@ function App() {
                                                 src="/3rd-attempt/2.jpg"
                                                 alt="Step 2"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/3rd-attempt/2.jpg')}
+                                                onClick={() => openModal('/public/3rd-attempt/2.jpg')}
                                             />
                                             <span>While the mixture is cooking.</span>
                                         </li>
@@ -236,7 +236,7 @@ function App() {
                                                 src="/3rd-attempt/3.jpg"
                                                 alt="Step 3"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/3rd-attempt/3.jpg')}
+                                                onClick={() => openModal('/public/3rd-attempt/3.jpg')}
                                             />
                                             <span>After adding the Rubber milk.</span>
                                         </li>
@@ -245,7 +245,7 @@ function App() {
                                                 src="/3rd-attempt/4.jpg"
                                                 alt="Step 4"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/3rd-attempt/4.jpg')}
+                                                onClick={() => openModal('/public/3rd-attempt/4.jpg')}
                                             />
                                             <span>Let it set at room temperature.</span>
                                         </li>
@@ -254,7 +254,7 @@ function App() {
                                                 src="/3rd-attempt/5.jpg"
                                                 alt="Step 5"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/3rd-attempt/5.jpg')}
+                                                onClick={() => openModal('/public/3rd-attempt/5.jpg')}
                                             />
                                             <span>The final result.</span>
                                         </li>
@@ -263,7 +263,7 @@ function App() {
                                                 src="/3rd-attempt/6.jpg"
                                                 alt="Step 6"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/3rd-attempt/6.jpg')}
+                                                onClick={() => openModal('/public/3rd-attempt/6.jpg')}
                                             />
                                             <span>Check an additional view of the result.</span>
                                         </li>
@@ -300,7 +300,7 @@ function App() {
                                                 src="/4th-attempt/1.jpg"
                                                 alt="Step 1"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/4th-attempt/1.jpg')}
+                                                onClick={() => openModal('/public/4th-attempt/1.jpg')}
                                             />
                                             <span>The mixture after pouring it to the tray (This didn’t set, this was same after 3 days also).</span>
                                         </li>
@@ -337,7 +337,7 @@ function App() {
                                                 src="/5th-attempt/1.jpg"
                                                 alt="Step 1"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/5th-attempt/1.jpg')}
+                                                onClick={() => openModal('/public/5th-attempt/1.jpg')}
                                             />
                                             <span>The mixture after cooked.</span>
                                         </li>
@@ -346,7 +346,7 @@ function App() {
                                                 src="/5th-attempt/2.jpg"
                                                 alt="Step 2"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/5th-attempt/2.jpg')}
+                                                onClick={() => openModal('/public/5th-attempt/2.jpg')}
                                             />
                                             <span>The beeswax has come on top, the underneath mixture was like jelly.</span>
                                         </li>
@@ -355,7 +355,7 @@ function App() {
                                                 src="/5th-attempt/3.jpg"
                                                 alt="Step 3"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/5th-attempt/3.jpg')}
+                                                onClick={() => openModal('/public/5th-attempt/3.jpg')}
                                             />
                                             <span>The finished product after 2 days.</span>
                                         </li>
@@ -364,7 +364,7 @@ function App() {
                                                 src="/5th-attempt/4.jpg"
                                                 alt="Step 4"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/5th-attempt/4.jpg')}
+                                                onClick={() => openModal('/public/5th-attempt/4.jpg')}
                                             />
                                             <span>Check an additional view of the result.</span>
                                         </li>
@@ -400,7 +400,7 @@ function App() {
                                                 src="/6th-attempt/1.jpg"
                                                 alt="Step 1"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/6th-attempt/1.jpg')}
+                                                onClick={() => openModal('/public/6th-attempt/1.jpg')}
                                             />
                                             <span>After the mixture is poured to the tray.</span>
                                         </li>
@@ -409,7 +409,7 @@ function App() {
                                                 src="/6th-attempt/2.jpg"
                                                 alt="Step 2"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/6th-attempt/2.jpg')}
+                                                onClick={() => openModal('/public/6th-attempt/2.jpg')}
                                             />
                                             <span>After 2 days the mixture was fully hardened.</span>
                                         </li>
@@ -418,7 +418,7 @@ function App() {
                                                 src="/6th-attempt/3.jpg"
                                                 alt="Step 3"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
-                                                onClick={() => openModal('/src/assets/6th-attempt/3.jpg')}
+                                                onClick={() => openModal('/public/6th-attempt/3.jpg')}
                                             />
                                             <span>The mixture after taking out of the tray.</span>
                                         </li>
