@@ -108,7 +108,7 @@ function App() {
                                     <ol className="ml-6 space-y-4 text-gray-600 list-decimal">
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/1st-attempt/1.jpg"
+                                                src="/1st-attempt/1.jpg"
                                                 alt="Step 1"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/1st-attempt/1.jpg')}
@@ -117,7 +117,7 @@ function App() {
                                         </li>
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/1st-attempt/2.jpg"
+                                                src="/1st-attempt/2.jpg"
                                                 alt="Step 2"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/1st-attempt/2.jpg')}
@@ -126,7 +126,7 @@ function App() {
                                         </li>
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/1st-attempt/3.jpg"
+                                                src="/1st-attempt/3.jpg"
                                                 alt="Step 3"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/1st-attempt/3.jpg')}
@@ -135,7 +135,7 @@ function App() {
                                         </li>
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/1st-attempt/4.jpg"
+                                                src="/1st-attempt/4.jpg"
                                                 alt="Step 4"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/1st-attempt/4.jpg')}
@@ -170,7 +170,7 @@ function App() {
                                     <ol className="ml-6 space-y-4 text-gray-600 list-decimal">
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/2nd-attempt/1.jpg"
+                                                src="/2nd-attempt/1.jpg"
                                                 alt="Step 1"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/2nd-attempt/1.jpg')}
@@ -179,7 +179,7 @@ function App() {
                                         </li>
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/2nd-attempt/2.jpg"
+                                                src="/2nd-attempt/2.jpg"
                                                 alt="Step 2"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/2nd-attempt/2.jpg')}
@@ -215,7 +215,7 @@ function App() {
                                     <ol className="ml-6 space-y-4 text-gray-600 list-decimal">
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/3rd-attempt/1.jpg"
+                                                src="/3rd-attempt/1.jpg"
                                                 alt="Step 1"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/3rd-attempt/1.jpg')}
@@ -224,7 +224,7 @@ function App() {
                                         </li>
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/3rd-attempt/2.jpg"
+                                                src="/3rd-attempt/2.jpg"
                                                 alt="Step 2"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/3rd-attempt/2.jpg')}
@@ -233,7 +233,7 @@ function App() {
                                         </li>
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/3rd-attempt/3.jpg"
+                                                src="/3rd-attempt/3.jpg"
                                                 alt="Step 3"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/3rd-attempt/3.jpg')}
@@ -242,7 +242,7 @@ function App() {
                                         </li>
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/3rd-attempt/4.jpg"
+                                                src="/3rd-attempt/4.jpg"
                                                 alt="Step 4"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/3rd-attempt/4.jpg')}
@@ -251,7 +251,7 @@ function App() {
                                         </li>
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/3rd-attempt/5.jpg"
+                                                src="/3rd-attempt/5.jpg"
                                                 alt="Step 5"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/3rd-attempt/5.jpg')}
@@ -260,7 +260,7 @@ function App() {
                                         </li>
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/3rd-attempt/6.jpg"
+                                                src="/3rd-attempt/6.jpg"
                                                 alt="Step 6"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/3rd-attempt/6.jpg')}
@@ -297,7 +297,7 @@ function App() {
                                     <ol className="ml-6 space-y-4 text-gray-600 list-decimal">
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/4th-attempt/1.jpg"
+                                                src="/4th-attempt/1.jpg"
                                                 alt="Step 1"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/4th-attempt/1.jpg')}
@@ -334,7 +334,7 @@ function App() {
                                     <ol className="ml-6 space-y-4 text-gray-600 list-decimal">
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/5th-attempt/1.jpg"
+                                                src="/5th-attempt/1.jpg"
                                                 alt="Step 1"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/5th-attempt/1.jpg')}
@@ -343,7 +343,7 @@ function App() {
                                         </li>
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/5th-attempt/2.jpg"
+                                                src="/5th-attempt/2.jpg"
                                                 alt="Step 2"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/5th-attempt/2.jpg')}
@@ -352,7 +352,7 @@ function App() {
                                         </li>
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/5th-attempt/3.jpg"
+                                                src="/5th-attempt/3.jpg"
                                                 alt="Step 3"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/5th-attempt/3.jpg')}
@@ -361,7 +361,7 @@ function App() {
                                         </li>
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/5th-attempt/4.jpg"
+                                                src="/5th-attempt/4.jpg"
                                                 alt="Step 4"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/5th-attempt/4.jpg')}
@@ -397,7 +397,7 @@ function App() {
                                     <ol className="ml-6 space-y-4 text-gray-600 list-decimal">
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/6th-attempt/1.jpg"
+                                                src="/6th-attempt/1.jpg"
                                                 alt="Step 1"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/6th-attempt/1.jpg')}
@@ -406,7 +406,7 @@ function App() {
                                         </li>
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/6th-attempt/2.jpg"
+                                                src="/6th-attempt/2.jpg"
                                                 alt="Step 2"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/6th-attempt/2.jpg')}
@@ -415,7 +415,7 @@ function App() {
                                         </li>
                                         <li className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
                                             <img
-                                                src="/src/assets/6th-attempt/3.jpg"
+                                                src="/6th-attempt/3.jpg"
                                                 alt="Step 3"
                                                 className="w-20 sm:w-24 md:w-32 h-auto rounded shadow-sm cursor-pointer"
                                                 onClick={() => openModal('/src/assets/6th-attempt/3.jpg')}
